@@ -11,9 +11,9 @@ Este é um simples encurtador de links feito em Python usando a biblioteca `tkin
 ## 🚀 Como Usar
 
 ### 1. Instale as dependências
-Certifique-se de ter o Python instalado e execute o seguinte comando para instalar a biblioteca necessária:
+Certifique-se de ter o Python instalado e execute o seguinte comando para instalar todas as bibliotecas necessárias:
 ```bash
-pip install pyshorteners
+pip install -r requirements.txt
 ```
 
 ### 2. Execute o programa
@@ -26,11 +26,20 @@ python encurtador.py
 - Python 3
 - Tkinter (Interface Gráfica)
 - Pyshorteners (API de encurtamento de links)
+- Pyperclip (Copia automaticamente o link encurtado para a área de transferência)
+
+## 📦 Arquivo de Requisitos
+As dependências do projeto estão listadas no arquivo `requirements.txt`:
+```
+pyshorteners
+pyperclip
+```
+> Obs: O `tkinter` já vem incluído com o Python em instalações padrão.
 
 ## 📜 Licença
 Este projeto está sob a licença MIT - sinta-se à vontade para usar e modificar!
 
 ---
 
-Criado por **Eduardo Alves** 🚀
+💡 *Feito por [Eduardo Delben](https://github.com/eduardodelben)*
 
